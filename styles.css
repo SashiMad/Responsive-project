@@ -1,3 +1,10 @@
 h1 {
-  color: red;
+  font-family: "Abril Fatface", cursive;
+}
+/*
+font-family: "Abril Fatface", cursive;
+font-family: "Poppins", sans-serif;
+*/
+p {
+  font-family: "Poppins", sans-serif;
 }
