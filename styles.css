@@ -35,9 +35,20 @@ h1 {
 h2 {
   font-size: 60px;
 }
+h4 {
+  font-size: 48px;
+}
 .link-icon {
   font-size: 22px;
-  padding: 0 20px;
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+.link-icon:hover {
+  background: white;
+  transition: all 100ms ease-in-out;
 }
 .logo {
   max-height: 40px;
@@ -61,6 +72,7 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
+.link-icon:hover,
 nav li.active a {
   color: var(--branding-color);
 }
@@ -117,6 +129,20 @@ nav li.active a {
 .content {
   margin: 10px 30px;
 }
+footer p {
+  font-size: 24px;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
 
 @media (max-width: 960px) {
   nav a {
@@ -131,6 +157,8 @@ nav li.active a {
   }
   h2 {
     font-size: 42px;
+  }
+  
   }
   .hero h2 {
     font-size: 14px;
