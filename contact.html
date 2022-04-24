@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Frontend Developer - Sashi Madleniak</title>
+    <meta
+      name="description"
+      content="Get in touch with frontend developer Sashi Madleniak. Contact information such as email, linkedin and github below."
+    />
 
     <script
       src="https://kit.fontawesome.com/c605859cf5.js"
@@ -30,27 +34,65 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="shecodes-logo"
+          />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="shecodes-logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/index.html" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Sashi">About</a></li>
+          <li>
+            <a href="/work.html" title="Sashi's Projects">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Sashi">Connect</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content contact">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h5>Email me at:</h5>
         <p><i class="fa-solid fa-envelope"></i> alexandra@gmail.com</p>
-        <h5>Interested in what I do? Find me here:</h5>
+        <h5 class="mb-4">Interested in what I do? Find me here:</h5>
         <div class="d-flex justify-content-center">
-          <a href="mailto:alexandra@gmail.com">
+          <a title="Email" href="mailto:alexandra@gmail.com">
             <i class="fa-solid fa-envelope link link-icon"> </i>
           </a>
           <a
+            title="LinkedIn"
             href="https://www.linkedin.com/in/alexandra-madleniak-796218233/"
             target="_blank"
           >
             <i class="fa-brands fa-linkedin link-icon"> </i>
           </a>
-          <a href="https://github.com/sashimad" target="_blank">
+          <a title="GitHub" href="https://github.com/sashimad" target="_blank">
             <i class="fa-brands fa-github link-icon"> </i>
           </a>
         </div>
       </div>
     </div>
+    <footer class="container">
+      <p class="credit">
+        This website was coded by Sashi Madleniak and is open-sourced on
+        <a
+          href="https://github.com/SashiMad/Responsive-project"
+          title="Responsive Project"
+          >GitHub</a
+        >
+        ✌️
+      </p>
+    </footer>
   </body>
 </html>

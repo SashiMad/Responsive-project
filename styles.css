@@ -19,7 +19,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-family: "Poppins", sans-serif;
@@ -35,7 +35,7 @@ h1 {
 h2 {
   font-size: 60px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 .link-icon {
@@ -124,7 +124,7 @@ nav li.active a {
   font-size: 14px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 10px 30px;
@@ -143,6 +143,10 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
+.credit {
+  font-size: 10px;
+  text-align: center;
+}
 
 @media (max-width: 960px) {
   nav a {
@@ -158,17 +162,14 @@ footer .contact-box p {
   h2 {
     font-size: 42px;
   }
-  
-  }
+
   .hero h2 {
     font-size: 14px;
   }
   .hero p {
     font-size: 20px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .content-container {
     text-align: center;
     padding: 0;

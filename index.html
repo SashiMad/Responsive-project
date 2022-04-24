@@ -26,12 +26,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Frontend Developer - Sashi Madleniak - Homepage</title>
+    <meta
+      name="description"
+      content="Frontend Developer based in Europe. SheCodes 2022 graduate. "
+    />
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
             class="logo d-none d-md-block"
@@ -44,10 +48,14 @@
           />
         </a>
         <ul>
-          <li class="active"><a href="/.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Connect</a></li>
+          <li class="active">
+            <a href="/index.html" title="Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Sashi">About</a></li>
+          <li>
+            <a href="/work.html" title="Sashi's Projects">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Sashi">Connect</a></li>
         </ul>
       </nav>
     </div>
@@ -59,7 +67,9 @@
       <h2 class="mb-5">Front-end Developer based in Europe</h2>
 
       <div>
-        <a href="/contact.html" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Sashi"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -79,7 +89,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Launch project</a>
+            <a
+              title="View Project"
+              href="/work.html"
+              class="btn btn-branding-outline"
+              >Launch project</a
+            >
           </div>
         </div>
       </div>
@@ -93,7 +108,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Launch project</a>
+            <a
+              title="View Project"
+              href="/work.html"
+              class="btn btn-branding-outline"
+              >Launch project</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -117,37 +137,57 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Launch project</a>
+            <a
+              title="View Project"
+              href="/work.html"
+              class="btn btn-branding-outline"
+              >Launch project</a
+            >
           </div>
         </div>
       </div>
       <footer>
         <div
-          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+          class="contact-box d-flex justify-content-between mb-4 d-none d-md-flex"
         >
           <div>
             <h4>Work Inquiry</h4>
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              title="Contact"
+              href="/contact.html"
+              class="btn btn-branding mt-3 me-5"
+              >Contact me</a
+            >
           </div>
         </div>
-        <p class="text-center p-4 mb-5">alexandra@gmail.com</p>
-        <div class="icons text-center mb-5 d-flex justify-content-center">
-          <a href="mailto:alexandra@gmail.com">
+        <p class="text-center p-4 mb-4">alexandra@gmail.com</p>
+        <div class="icons text-center mb-4 d-flex justify-content-center">
+          <a title="Email" href="mailto:alexandra@gmail.com">
             <i class="fa-solid fa-envelope link link-icon"> </i>
           </a>
           <a
+            title="LinkedIn"
             href="https://www.linkedin.com/in/alexandra-madleniak-796218233/"
             target="_blank"
           >
             <i class="fa-brands fa-linkedin link-icon"> </i>
           </a>
-          <a href="https://github.com/sashimad" target="_blank">
+          <a title="GitHub" href="https://github.com/sashimad" target="_blank">
             <i class="fa-brands fa-github link-icon"> </i>
           </a>
         </div>
+        <p class="credit">
+          This website was coded by Sashi Madleniak and is open-sourced on
+          <a
+            href="https://github.com/SashiMad/Responsive-project"
+            title="Responsive Project"
+            >GitHub</a
+          >
+          ✌️
+        </p>
       </footer>
     </div>
   </body>
