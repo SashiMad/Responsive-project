@@ -39,6 +39,32 @@ h2 {
   font-size: 22px;
   padding: 0 20px;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -81,7 +107,6 @@ h2 {
 .content h5 {
   font-family: var(--default-font-family);
   font-weight: bold;
-  line-height: 3;
 }
 .content p {
   font-size: 14px;
@@ -94,6 +119,9 @@ h2 {
 }
 
 @media (max-width: 960px) {
+  nav a {
+    font-size: 12px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
