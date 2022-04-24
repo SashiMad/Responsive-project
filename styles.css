@@ -35,6 +35,10 @@ h1 {
 h2 {
   font-size: 60px;
 }
+.link-icon {
+  font-size: 22px;
+  padding: 0 20px;
+}
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -74,6 +78,11 @@ h2 {
   line-height: 1.5;
   margin: 20px 0 0;
 }
+.content h5 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  line-height: 3;
+}
 .content p {
   font-size: 14px;
 }
@@ -108,4 +117,8 @@ h2 {
     text-align: center;
     padding: 0;
   }
+}
+.contact {
+  text-align: center;
+  line-height: 3;
 }
