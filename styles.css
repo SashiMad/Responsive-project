@@ -152,6 +152,9 @@ footer .contact-box p {
   nav a {
     font-size: 12px;
   }
+  nav li {
+    margin-left: 10px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -160,6 +163,9 @@ footer .contact-box p {
     font-size: 44px;
   }
   h2 {
+    font-size: 42px;
+  }
+  .content h1 {
     font-size: 42px;
   }
 
